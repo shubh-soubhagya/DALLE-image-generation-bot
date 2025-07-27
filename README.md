@@ -1,4 +1,4 @@
-# Dalle Image Generation Bot
+# DALLE Image Generation Bot
 
 ## Description
 This project utilizes the OpenDalle image generation model to automatically generate images from text prompts, providing a user-friendly interface for creative expression. 
@@ -12,8 +12,7 @@ This project utilizes the OpenDalle image generation model to automatically gene
 ## Directory Structure
 ```
 DALLE-ImageGen/
-    |-- main.py           # Main application file
-    |-- requirements.txt   # Project dependencies
+    |-- dalle_imagegen.py           # Main application file
     |-- README.md          # This file
 ```
 
@@ -21,15 +20,13 @@ DALLE-ImageGen/
 ## Usage
 To run the Dalle Image Generation Bot:
 
-1. **Clone the repository:** `git clone https://github.com/yourusername/DALLE-ImageGen.git` 
-2. **Navigate to the directory:** `cd DALL-ImageGen`
-3.  **Install dependencies:** `pip install -r requirements.txt`
-4. **Run the application:** `python main.py` 
+1. **Clone the repository:** `git clone https://github.com/shubh-soubhagya/DALLE-image-generation-bot.git` 
+2. **Navigate to the directory:** `cd DALLE-image-generation-bot`
+4. **Run the application:** `dalle_imagegen.py` 
 
 
 ## File Descriptions
-*   **main.py**: This file contains the logic for running the image generation process, including user interface and model handling. 
-*   **requirements.txt**:  Contains a list of Python packages required for project execution.
+*   **dalle_imagegen.py**: This file contains the logic for running the image generation process, including user interface and model handling. 
 
 ## Technologies Used
 *   Python: The primary language used in this project.
